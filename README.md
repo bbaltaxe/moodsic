@@ -39,9 +39,43 @@ Let's dive in!
  python play.py 
  ```
  
- ## Generating your own midi samples and interpolations
+ ## generating your own midi samples and interpolations
  
- # Generate a sample from a pretrained model 
+ ### generate a sample from a pretrained model 
  - [Download](https://storage.googleapis.com/magentadata/models/music_vae/checkpoints/cat-mel_2bar_big.tar) this pretrained model. (you can also train your own if you would like! Instructions can be found [here]( https://github.com/tensorflow/magenta/tree/master/magenta/models/music_vae))
  
+ - untar the file using 
+ ```
+ tar -C /checkpoints -zxvf cat-mel_2bar_big.tar
+ ```
  
+ - generate samples by using: 
+ ```
+ music_vae_generate \
+--config=cat-mel_2bar_big \
+--checkpoint_file=/path/to/music_vae/checkpoints/cat-mel_2bar_big.tar \
+--mode=sample \
+--num_outputs=5 \
+--output_dir=/tmp/music_vae/generated
+```
+This will generate 5 samples, but that can be changed! Please change the paths to files as necessary
+
+### generate interpolations from a pretrained model 
+
+- generate interpolations by using:
+```
+music_vae_generate \
+--config=cat-mel_2bar_big \
+--checkpoint_file=/path/to/music_vae/checkpoints/cat-mel_2bar.ckpt \
+--mode=interpolate \
+--num_outputs=100 \
+--input_midi_1=/path/to/input/1.mid \
+--input_midi_2=/path/to/input/2.mid \
+--output_dir=/tmp/music_vae/generated
+```
+This will generate 100 samoles to interpolate over. This is what the hardware is configured to work with, so don't go any less than 100 without changing that! Again, please change the paths as needed
+
+- you can now use your newly generated midi for this project! 
+
+## closing 
+That's it! Please feel free to reach out with any questions or comments. 
