@@ -1,3 +1,5 @@
+![Alt](/design_folder/design.png "concept of look")
+
 # moodsic
 
 This repo contains code and instructions for running our CM202 final project. 
@@ -5,6 +7,8 @@ This repo contains code and instructions for running our CM202 final project.
 ### concept 
 
 Essentially what we've done is made a latent space controller using Mageneta's Music VAE. A user can interact with our designed hardware by placing it on any object, fidgetting with the object in a variety of ways, and they will be moved through different musical states. 
+
+![Alt](/design_folder/interaction_design.png "design concept")
 
 ### implementation 
 
