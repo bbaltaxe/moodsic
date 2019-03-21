@@ -12,3 +12,15 @@ We use adafruit's IO API to interface with out hardware and output music based o
 
 ## set up 
 
+Let's dive in! 
+
+ - First, download this repo! 
+
+ - You'll want to unzip generated.zip
+ 
+ - To download all the requirements, first cd to the directory you have just downloaded. you can use the following command to get the required packages: 
+ '''
+ pip install -r requirements.txt
+ '''
+ 
+ 
