@@ -3,7 +3,7 @@ import glob
 from Adafruit_IO import Client
 
 #aio = Client('YOUR ADAFRUIT IO USERNAME', 'YOUR ADAFRUIT IO KEY')
-aio = Client('jamescfey', 'faaaea08b041425ba38191ac40b3c691')
+aio = Client('id', 'key')
 
 path_to_midi = '/Users/breanna/Documents/Classes/cm202_final/generated/*'
 
