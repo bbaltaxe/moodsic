@@ -87,5 +87,10 @@ This will generate 100 samoles to interpolate over. This is what the hardware is
 
 - you can now use your newly generated midi for this project! 
 
+## Demo Video!
+
+[![Moodsic Demo](https://img.youtube.com/vi/N6x-xMmdZ1g/0.jpg)](https://youtu.be/N6x-xMmdZ1g "Moodsic Demo")
+
 ## closing 
 That's it! Please feel free to reach out with any questions or comments. 
+
