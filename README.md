@@ -16,8 +16,14 @@ We use adafruit's IO API to interface with out hardware and output music based o
 
 ## hardware set up 
 
-- some things james will add here 
-- specifically on what needs to be soldered, and how to set up a feed in adafruit io 
+ - Start Here!: https://learn.adafruit.com/circuit-playground-and-bluetooth-low-energy/overview
+ 
+ - Once you have the hardware, go here for pairing the bluetooth: https://learn.adafruit.com/datalogging-hat-with-flora-ble/bluefruit-le-connect-settings
+ 
+ - From this point you will have a circuit playground with attached bluefruit, an io.adafruit.com account and a feed to collect data from
+ 
+ - At this point the device needs a battery and can be attached to any object of your choice! we have in enclosed in a prototype design at this point.
+
 
 ## software set up 
 
