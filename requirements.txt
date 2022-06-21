@@ -59,7 +59,7 @@ mock==2.0.0
 mpmath==1.1.0
 networkx==1.8.1
 numba==0.43.0
-numpy==1.16.2
+numpy==1.22.0
 oauth2client==4.1.3
 opencv-python==4.0.0.21
 opt-einsum==2.3.2
